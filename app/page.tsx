@@ -30,7 +30,7 @@ const Home: React.FC = () => {
   return (
     <main className="min-h-screen bg-white font-sans overflow-x-hidden text-gray-900">
 
-      {/* ===== NAVBAR ===== */}
+
       <nav className="flex items-center justify-between px-8 py-5 bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
         <div className="text-2xl font-black text-yellow-500 tracking-tighter italic">
           SUNSILK
@@ -46,7 +46,6 @@ const Home: React.FC = () => {
         </button>
       </nav>
 
-      {/* ===== HERO SECTION ===== */}
       <section className="relative bg-gradient-to-tr from-yellow-50 via-white to-orange-50 py-24 px-8">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
           
